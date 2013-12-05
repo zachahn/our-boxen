@@ -4,9 +4,19 @@ GITHUBTARBALL
     boxen (3.3.4)
 
 GITHUBTARBALL
+  remote: boxen/puppet-chrome
+  specs:
+    chrome (1.1.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-dropbox
+  specs:
+    dropbox (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -22,6 +32,11 @@ GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
     git (1.2.5)
+
+GITHUBTARBALL
+  remote: boxen/puppet-github_for_mac
+  specs:
+    github_for_mac (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-go
@@ -54,6 +69,11 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (2.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.0.2)
@@ -74,14 +94,34 @@ GITHUBTARBALL
     ruby (6.7.2)
 
 GITHUBTARBALL
+  remote: boxen/puppet-skype
+  specs:
+    skype (1.0.7)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (3.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.9)
+
+GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -93,12 +133,20 @@ GITHUBTARBALL
   specs:
     stdlib (4.1.0)
 
+GITHUBTARBALL
+  remote: slantview/puppet-sublime_text
+  specs:
+    sublime_text (1.2.1)
+
 DEPENDENCIES
   boxen (= 3.3.4)
+  chrome (= 1.1.2)
   dnsmasq (= 1.0.0)
+  dropbox (= 1.2.0)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.5)
+  github_for_mac (= 1.0.1)
   go (= 1.0.0)
   homebrew (= 1.5.1)
   hub (= 1.0.3)
@@ -106,11 +154,17 @@ DEPENDENCIES
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)
+  osx (= 2.2.0)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   repository (= 2.2.0)
   ruby (= 6.7.2)
+  skype (= 1.0.7)
   stdlib (= 4.1.0)
+  sublime_text (= 1.2.1)
   sudo (= 1.0.0)
+  vagrant (= 3.0.0)
+  virtualbox (= 1.0.9)
   xquartz (= 1.1.0)
+  zsh (= 1.0.0)
 

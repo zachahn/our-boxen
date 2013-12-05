@@ -55,3 +55,14 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "vagrant",    "3.0.0"
+github "virtualbox", "1.0.9"
+github "skype",      "1.0.7"
+github "chrome",     "1.1.2"
+github "github_for_mac", "1.0.1"
+github "dropbox",    "1.2.0"
+github "sublime_text", "1.2.1", :repo => "slantview/puppet-sublime_text"
+github "zsh",        "1.0.0"
+github "osx",        "2.2.0"
+
