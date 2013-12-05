@@ -8,6 +8,7 @@ class people::zachahn {
   include github_for_mac
   include sublime_text
   include nodejs::v0_10
+  include nodejs::global
 
   include zsh
 
