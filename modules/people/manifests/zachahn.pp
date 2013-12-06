@@ -9,6 +9,7 @@ class people::zachahn {
   include sublime_text
   include nodejs::v0_10
   include nodejs::global
+  include mongodb
 
   include zsh
 
