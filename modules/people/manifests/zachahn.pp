@@ -28,4 +28,8 @@ class people::zachahn {
   vagrant::box { 'precise64/virtualbox':
     source => 'http://files.vagrantup.com/precise64.box',
   }
+
+  git::config::global { 'push.default':
+    value  => 'simple'
+  }
 }
