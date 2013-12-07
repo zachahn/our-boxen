@@ -67,4 +67,5 @@ github "zsh",        "1.0.0"
 github "osx",        "2.2.0"
 github "mongodb",    "1.0.5"
 github "appcleaner", "1.0.0"
+github "unarchiver", "1.3.0", :repo => "dieterdemeyer/puppet-unarchiver"
 
