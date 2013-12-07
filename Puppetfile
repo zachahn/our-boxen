@@ -66,4 +66,5 @@ github "sublime_text", "1.2.1", :repo => "slantview/puppet-sublime_text"
 github "zsh",        "1.0.0"
 github "osx",        "2.2.0"
 github "mongodb",    "1.0.5"
+github "appcleaner", "1.0.0"
 

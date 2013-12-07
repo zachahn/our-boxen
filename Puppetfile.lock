@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-appcleaner
+  specs:
+    appcleaner (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.3.4)
@@ -144,6 +149,7 @@ GITHUBTARBALL
     sublime_text (1.2.1)
 
 DEPENDENCIES
+  appcleaner (= 1.0.0)
   boxen (= 3.3.4)
   chrome (= 1.1.2)
   dnsmasq (= 1.0.0)
