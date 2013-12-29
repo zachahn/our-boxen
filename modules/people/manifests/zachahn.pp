@@ -12,6 +12,7 @@ class people::zachahn {
   include nodejs::v0_10
   include nodejs::global
   include mongodb
+  include redis
 
   include zsh
 
