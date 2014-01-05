@@ -3,7 +3,6 @@ class people::zachahn {
   include skype
   include dropbox
   include appcleaner
-  include unarchiver
 
   include vagrant
   include virtualbox
