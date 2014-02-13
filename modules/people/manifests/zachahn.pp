@@ -1,4 +1,8 @@
 class people::zachahn {
+  class { 'mysql::config':
+    port => 3306,
+  }
+
   include chrome
   include skype
   include dropbox
@@ -12,11 +16,6 @@ class people::zachahn {
   include nodejs::global
   include mongodb
   include redis
-
-  class { 'mysql::config':
-    port => 3306,
-  }
-
   include mysql
 
   include zsh
