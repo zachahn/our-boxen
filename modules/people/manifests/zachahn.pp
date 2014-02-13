@@ -13,6 +13,12 @@ class people::zachahn {
   include mongodb
   include redis
 
+  class { 'mysql::config':
+    port => 3306,
+  }
+
+  include mysql
+
   include zsh
 
   include osx::disable_app_quarantine

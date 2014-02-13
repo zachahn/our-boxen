@@ -68,4 +68,5 @@ github "osx",        "2.2.0"
 github "mongodb",    "1.0.5"
 github "redis",      "2.1.0"
 github "appcleaner", "1.0.0"
+github "mysql",      "1.2.0"
 

@@ -64,6 +64,11 @@ GITHUBTARBALL
     mongodb (1.0.5)
 
 GITHUBTARBALL
+  remote: boxen/puppet-mysql
+  specs:
+    mysql (1.2.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
     nginx (1.4.2)
@@ -168,6 +173,7 @@ DEPENDENCIES
   hub (= 1.0.3)
   inifile (= 1.0.0)
   mongodb (= 1.0.5)
+  mysql (= 1.2.0)
   nginx (= 1.4.2)
   nodejs (= 3.3.0)
   openssl (= 1.0.0)
