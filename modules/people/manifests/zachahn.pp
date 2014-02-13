@@ -14,9 +14,11 @@ class people::zachahn {
   include sublime_text
   include nodejs::v0_10
   include nodejs::global
-  include mongodb
+  # include mongodb
   include redis
   include mysql
+
+  class { 'mongodb': port => 27017, }
 
   include zsh
 
