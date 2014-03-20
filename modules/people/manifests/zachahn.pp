@@ -30,13 +30,13 @@ class people::zachahn {
 
   $home = "/Users/${::boxen_user}"
 
-  vagrant::box { 'precise32/virtualbox':
-    source => 'http://files.vagrantup.com/precise32.box',
-  }
+  # vagrant::box { 'precise32/virtualbox':
+  #   source => 'http://files.vagrantup.com/precise32.box',
+  # }
 
-  vagrant::box { 'precise64/virtualbox':
-    source => 'http://files.vagrantup.com/precise64.box',
-  }
+  # vagrant::box { 'precise64/virtualbox':
+  #   source => 'http://files.vagrantup.com/precise64.box',
+  # }
 
   git::config::global { 'push.default':
     value  => 'simple'
