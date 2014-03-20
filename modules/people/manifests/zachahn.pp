@@ -12,7 +12,7 @@ class people::zachahn {
   include virtualbox
   include github_for_mac
   include sublime_text
-  include nodejs::v0_10
+  # include nodejs::v0_10
   include nodejs::global
   # include mongodb
   include redis
