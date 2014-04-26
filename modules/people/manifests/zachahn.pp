@@ -24,6 +24,8 @@ class people::zachahn {
 
   package { "ImageMagick": }
 
+  package { "icu4c": }
+
   include osx::disable_app_quarantine
   include osx::global::disable_key_press_and_hold
   include osx::dock::autohide
