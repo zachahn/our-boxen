@@ -17,6 +17,7 @@ class people::zachahn {
   # include mongodb
   include redis
   include mysql
+  include heroku
 
   class { 'mongodb': port => 27017, }
 

@@ -73,4 +73,5 @@ github "mongodb",    "1.2.0"
 github "redis",      "2.1.0"
 github "appcleaner", "1.0.0"
 github "mysql",      "1.2.0"
+github "heroku",     "2.1.1"
 
