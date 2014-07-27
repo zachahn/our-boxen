@@ -26,6 +26,8 @@ class people::zachahn {
 
   package { "icu4c": }
 
+  package { "tree": }
+
   include osx::disable_app_quarantine
   include osx::global::disable_key_press_and_hold
   include osx::dock::autohide
