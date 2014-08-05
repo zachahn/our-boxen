@@ -15,10 +15,11 @@ class people::zachahn {
   # include nodejs::v0_10
   include nodejs::global
   # include mongodb
-  include redis
   include mysql
   include heroku
   include java
+
+  class { 'redis': port => 6379, }
 
   class { 'elasticsearch': http_port => 9200, transport_port => 9300, }
 
