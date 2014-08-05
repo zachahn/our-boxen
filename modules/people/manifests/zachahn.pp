@@ -18,6 +18,9 @@ class people::zachahn {
   include redis
   include mysql
   include heroku
+  include java
+
+  class { 'elasticsearch': http_port => 9200, transport_port => 9300, }
 
   class { 'mongodb': port => 27017, }
 
