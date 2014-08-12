@@ -33,6 +33,8 @@ class people::zachahn {
 
   package { "tree": }
 
+  package { 'the_silver_searcher': }
+
   include osx::disable_app_quarantine
   include osx::global::disable_key_press_and_hold
   include osx::dock::autohide
