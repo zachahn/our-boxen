@@ -1,7 +1,8 @@
 class people::zachahn {
-  class { 'mysql::config':
-    port => 3306,
-  }
+  class { 'mysql::config': port => 3306, }
+  class { 'redis': port => 6379, }
+  class { 'mongodb': port => 27017, }
+  class { 'elasticsearch': http_port => 9200, transport_port => 9300, }
 
   include chrome
   include skype
@@ -12,27 +13,15 @@ class people::zachahn {
   include virtualbox
   include github_for_mac
   include sublime_text
-  # include nodejs::v0_10
   include nodejs::global
-  # include mongodb
   include mysql
   include heroku
   include java
-
-  class { 'redis': port => 6379, }
-
-  class { 'elasticsearch': http_port => 9200, transport_port => 9300, }
-
-  class { 'mongodb': port => 27017, }
-
   include zsh
 
   package { "ImageMagick": }
-
   package { "icu4c": }
-
   package { "tree": }
-
   package { 'the_silver_searcher': }
 
   include osx::disable_app_quarantine
