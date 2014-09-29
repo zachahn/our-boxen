@@ -1,6 +1,5 @@
 class people::zachahn {
   class { 'mysql::config': port => 3306, }
-  class { 'redis': port => 6379, }
   class { 'mongodb': port => 27017, }
   class { 'elasticsearch': http_port => 9200, transport_port => 9300, }
 
@@ -15,6 +14,7 @@ class people::zachahn {
   include sublime_text
   include nodejs::global
   include mysql
+  include redis
   include heroku
   include java
   include zsh
