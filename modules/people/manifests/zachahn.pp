@@ -18,7 +18,7 @@ class people::zachahn {
   package { "ImageMagick": }
   package { "icu4c": }
   package { "tree": }
-  package { 'the_silver_searcher': }
+  package { "the_silver_searcher": }
 
   include osx::disable_app_quarantine
   include osx::global::disable_key_press_and_hold
@@ -28,7 +28,7 @@ class people::zachahn {
 
   $home = "/Users/${::boxen_user}"
 
-  git::config::global { 'push.default':
-    value  => 'simple'
+  git::config::global { "push.default":
+    value  => "simple"
   }
 }
