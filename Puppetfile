@@ -76,5 +76,4 @@ github "appcleaner", "1.0.0"
 github "mysql",      "1.2.0"
 github "heroku",     "2.1.1"
 github "java",       "1.6.0"
-github "elasticsearch", "2.2.0"
 

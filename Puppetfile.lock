@@ -29,11 +29,6 @@ GITHUBTARBALL
     dropbox (1.2.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-elasticsearch
-  specs:
-    elasticsearch (2.2.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
     foreman (1.2.0)
@@ -190,7 +185,6 @@ DEPENDENCIES
   chrome (= 1.1.2)
   dnsmasq (= 2.0.1)
   dropbox (= 1.2.0)
-  elasticsearch (= 2.2.0)
   foreman (= 1.2.0)
   gcc (= 2.2.0)
   git (= 2.7.1)
