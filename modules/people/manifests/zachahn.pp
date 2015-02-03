@@ -12,7 +12,6 @@ class people::zachahn {
   include virtualbox
   include github_for_mac
   include sublime_text
-  include nodejs::global
   include mysql
   include redis
   include heroku
@@ -29,6 +28,8 @@ class people::zachahn {
   include osx::dock::autohide
   include osx::dock::position
   include osx::dock::icon_size
+
+  # class { 'nodejs::global': version => 'v0.10' }
 
   $home = "/Users/${::boxen_user}"
 
