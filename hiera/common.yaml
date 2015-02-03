@@ -23,4 +23,4 @@
 # java::update_version: 51
 redis::port: '6379'
 mysql::config::port: '3306'
-mongodb::port: '27107'
+mongodb::port: 27017
