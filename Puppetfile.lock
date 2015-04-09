@@ -149,11 +149,6 @@ GITHUBTARBALL
     virtualbox (1.0.9)
 
 GITHUBTARBALL
-  remote: boxen/puppet-wkhtmltopdf
-  specs:
-    wkhtmltopdf (1.2.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
@@ -218,7 +213,6 @@ DEPENDENCIES
   sudo (= 1.0.0)
   vagrant (= 3.0.0)
   virtualbox (= 1.0.9)
-  wkhtmltopdf (= 1.2.1)
   xquartz (= 1.2.1)
   zsh (= 1.0.0)
 
