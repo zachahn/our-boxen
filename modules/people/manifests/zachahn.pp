@@ -20,6 +20,7 @@ class people::zachahn {
   package { "icu4c": }
   package { "tree": }
   package { "the_silver_searcher": }
+  package { "anybar": provider => "brewcask" }
 
   include osx::disable_app_quarantine
   include osx::global::disable_key_press_and_hold
