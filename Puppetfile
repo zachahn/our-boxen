@@ -76,4 +76,3 @@ github "appcleaner", "1.0.0"
 github "mysql",      "1.99.19"
 github "heroku",     "2.1.1"
 github "java",       "1.6.0"
-
