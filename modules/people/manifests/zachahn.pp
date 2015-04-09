@@ -1,4 +1,5 @@
 class people::zachahn {
+  include brewcask
   include chrome
   include skype
   include dropbox
