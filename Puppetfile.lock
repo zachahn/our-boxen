@@ -182,7 +182,6 @@ DEPENDENCIES
   appcleaner (= 1.0.0)
   boxen (= 3.10.2)
   brewcask (= 0.0.6)
-  brewcask (= 0.0.6)
   chrome (= 1.1.2)
   dnsmasq (= 2.0.1)
   dropbox (= 1.2.0)
