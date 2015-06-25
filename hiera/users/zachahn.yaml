@@ -1,2 +1,4 @@
 boxen::personal::osx_apps:
   - anybar
+
+ruby::rbenv::ensure: 5b9e4f05846f6bd03b09b8572142f53fd7a46e62
