@@ -18,6 +18,9 @@ class people::zachahn {
   include seil
   include seil::login_item
 
+  include karabiner
+  include karabiner::login_item
+
   package { "ImageMagick": }
   package { "icu4c": }
   package { "tree": }
@@ -35,5 +38,26 @@ class people::zachahn {
     value  => "simple"
   }
 
-  seil::map { 'capslock': value => 110 }
+  seil::map { 'capslock':
+    value => 110
+  }
+
+  karabiner::private_xml { 'private.xml':
+    content => '<?xml version="1.0"?>
+<root>
+  <item>
+    <name>Tap CapsLock for CapsLock, Hold for CTRL.</name>
+    <identifier>private.custom_long_capslock</identifier>
+    
+    <autogen>
+        __HoldingKeyToKey__ KeyCode::PC_APPLICATION,
+        KeyCode::CAPSLOCK,
+        KeyCode::VK_NONE,
+        KeyCode::CONTROL_L
+    </autogen>
+  </item>
+</root>
+'
+
+  }
 }
