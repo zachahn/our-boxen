@@ -15,6 +15,9 @@ class people::zachahn {
   include java
   include zsh
 
+  include seil
+  include seil::login_item
+
   package { "ImageMagick": }
   package { "icu4c": }
   package { "tree": }
@@ -31,4 +34,6 @@ class people::zachahn {
   git::config::global { "push.default":
     value  => "simple"
   }
+
+  seil::map { 'capslock': value => 110 }
 }
