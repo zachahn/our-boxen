@@ -6,7 +6,6 @@ class people::zachahn {
 
   include vagrant
   include virtualbox
-  include github_for_mac
   include sublime_text
   include mysql
   include redis
