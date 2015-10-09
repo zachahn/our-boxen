@@ -68,7 +68,6 @@ github "xquartz",     "1.2.1"
 
 github "vagrant",    "3.3.1"
 github "virtualbox", "1.0.9"
-github "skype",      "1.0.7"
 github "chrome",     "1.1.2"
 github "dropbox",    "1.2.0"
 github "sublime_text", "1.2.1", :repo => "slantview/puppet-sublime_text"

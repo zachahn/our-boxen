@@ -1,6 +1,5 @@
 class people::zachahn {
   include chrome
-  include skype
   include dropbox
   include appcleaner
 
