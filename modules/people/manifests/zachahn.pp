@@ -3,14 +3,14 @@ class people::zachahn {
   include dropbox
   include appcleaner
 
-  include vagrant
-  include virtualbox
+  # include vagrant
+  # include virtualbox
   include sublime_text
-  include mysql
-  include redis
-  include mongodb
-  include heroku
-  include java
+  # include mysql
+  # include redis
+  # include mongodb
+  # include heroku
+  # include java
   include zsh
 
   include seil
