@@ -25,10 +25,21 @@ class people::zachahn {
   package { "the_silver_searcher": }
 
   include osx::disable_app_quarantine
+  include osx::no_network_dsstores
   include osx::global::disable_key_press_and_hold
+  include osx::global::expand_print_dialog
+  include osx::global::expand_save_dialog
+  include osx::global::tap_to_click
+  include osx::finder::show_external_hard_drives_on_desktop
+  include osx::finder::show_mounted_servers_on_desktop
+  include osx::finder::show_removable_media_on_desktop
+  include osx::finder::empty_trash_securely
+  include osx::finder::enable_quicklook_text_selection
+  include osx::finder::show_all_filename_extensions
   include osx::dock::autohide
   include osx::dock::position
   include osx::dock::icon_size
+  include osx::safari::enable_developer_mode
 
   $home = "/Users/${::boxen_user}"
 
