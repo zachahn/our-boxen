@@ -23,7 +23,7 @@ class people::zachahn {
   include osx::finder::show_external_hard_drives_on_desktop
   include osx::finder::show_mounted_servers_on_desktop
   include osx::finder::show_removable_media_on_desktop
-  include osx::finder::empty_trash_securely
+  # include osx::finder::empty_trash_securely
   include osx::finder::enable_quicklook_text_selection
   include osx::finder::show_all_filename_extensions
   include osx::dock::autohide
