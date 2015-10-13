@@ -11,6 +11,7 @@ class people::zachahn {
 
   package { "ImageMagick": }
   package { "icu4c": }
+  package { "legit": }
   package { "the_silver_searcher": }
   package { "tree": }
 
