@@ -11,8 +11,8 @@ class people::zachahn {
 
   package { "ImageMagick": }
   package { "icu4c": }
-  package { "tree": }
   package { "the_silver_searcher": }
+  package { "tree": }
 
   include osx::disable_app_quarantine
   include osx::no_network_dsstores
