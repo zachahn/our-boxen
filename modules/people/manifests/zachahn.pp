@@ -50,10 +50,10 @@ class people::zachahn {
     <identifier>private.custom_long_capslock</identifier>
     
     <autogen>
-        __HoldingKeyToKey__ KeyCode::PC_APPLICATION,
-        KeyCode::CAPSLOCK,
-        KeyCode::VK_NONE,
-        KeyCode::CONTROL_L
+      __HoldingKeyToKey__ KeyCode::PC_APPLICATION,
+      KeyCode::CAPSLOCK,
+      KeyCode::VK_NONE,
+      KeyCode::CONTROL_L
     </autogen>
   </item>
 </root>
