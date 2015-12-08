@@ -32,6 +32,9 @@ class people::zachahn {
   include osx::dock::icon_size
   include osx::safari::enable_developer_mode
 
+  class { 'osx::global::key_repeat_delay': delay => 15 }
+  class { 'osx::global::key_repeat_rate': rate => 2 }
+
   $home = "/Users/${::boxen_user}"
 
   git::config::global { "push.default":
