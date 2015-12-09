@@ -21,3 +21,4 @@
 
 # # See https://github.com/boxen/puppet-java for docs
 # java::update_version: 51
+boxen::environment::relative_bin_on_path: false
