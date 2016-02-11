@@ -49,22 +49,6 @@ class people::zachahn {
     command => 'set private.custom_long_capslock 1',
     unless  => 'private.custom_long_capslock=1'
   }
-  karabiner::exec { 'set repeat.wait 25':
-    command => 'set repeat.wait 25',
-    unless  => 'repeat.wait=25'
-  }
-  karabiner::exec { 'set repeat.initial_wait 250':
-    command => 'set repeat.initial_wait 250',
-    unless  => 'repeat.initial_wait=250'
-  }
-  karabiner::exec { 'set repeat.consumer_initial_wait 250':
-    command => 'set repeat.consumer_initial_wait 250',
-    unless  => 'repeat.consumer_initial_wait=250'
-  }
-  karabiner::exec { 'set repeat.consumer_wait 25':
-    command => 'set repeat.consumer_wait 25',
-    unless  => 'repeat.consumer_wait=25'
-  }
 
   karabiner::private_xml { 'private.xml':
     content => '<?xml version="1.0"?>
