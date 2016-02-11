@@ -45,25 +45,23 @@ class people::zachahn {
     value => 110
   }
 
-  karabiner::exec { 'set private.custom_long_capslock 1':
-    command => 'set private.custom_long_capslock 1',
-    unless  => 'private.custom_long_capslock=1'
+  karabiner::exec { 'set private.custom_single_pc_to_ctrl_double_pc_to_caps 1':
+    command => 'set private.custom_single_pc_to_ctrl_double_pc_to_caps 1',
+    unless  => 'private.custom_single_pc_to_ctrl_double_pc_to_caps=1'
   }
 
   karabiner::private_xml { 'private.xml':
     content => '<?xml version="1.0"?>
 <root>
-  <item>
-    <name>Tap CapsLock for CapsLock, Hold for CTRL.</name>
-    <identifier>private.custom_long_capslock</identifier>
-    
-    <autogen>
-      __HoldingKeyToKey__ KeyCode::PC_APPLICATION,
-      KeyCode::CAPSLOCK,
-      KeyCode::VK_NONE,
-      KeyCode::CONTROL_L
-    </autogen>
-  </item>
+    <item>
+        <identifier>private.custom_single_pc_to_ctrl_double_pc_to_caps</identifier>
+        <name>Single CAPS for CTRL, Double CAPS for CAPS</name>
+        <autogen>
+            __DoublePressModifier__ KeyCode::PC_APPLICATION,
+            KeyCode::CONTROL_L,
+            KeyCode::CAPSLOCK
+        </autogen>
+    </item>
 </root>
 '
 
