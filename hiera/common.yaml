@@ -1,2 +1,5 @@
 ---
 boxen::environment::relative_bin_on_path: false
+
+ruby::rbenv::ensure: "v1.0.0"
+ruby::build::ensure: "v20160111"
